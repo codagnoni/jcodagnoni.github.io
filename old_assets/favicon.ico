@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<title>J•Codagnoni</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="description" content="Joao Codagnoni's professional web page" />
+	<meta name="keywords" content="codagnoni, professional, page, curriculum, vitae" />
+	<meta name="author" content="João Codagnoni" />
+	<link id="page_favicon" href="favicon.ico" rel="icon" type="image/x-icon">
+	<link rel="shortcut icon" href="assets/favicon.ico"> 
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<script type="text/javascript" src="assets/js/modernizr.custom.86080.js"></script>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-44598067-1', 'jcodagnoni.com');
+		ga('send', 'pageview');
+	</script>
+
+	<script type="text/javascript">
+	function trackOutboundLink(link, category, action) { 
+ 
+	try { 
+	_gaq.push(['_trackEvent', category , action]); 
+	} catch(err){}
+ 
+	setTimeout(function() {
+	document.location.href = link.href;
+	}, 100);
+	}
+	</script>
+	
+</head>
+<body id="page">
+	<ul class="cb-background">
+		<li>
+			<span>Background</span>
+		</li>
+	</ul>
+	<div class="title">
+		<h3>j•codagnoni</h3>
+	</div>
+	<div class="clr"></div>
+	<div class="social">
+		<ul>
+			<li class="twitter">
+				<a href="https://twitter.com/codagnoni" onClick="trackOutboundLink(this, 'Outbound Links', 'twitter'); return false;">
+					<img src="assets/images/tw.png" alt="Follow me"></img>
+				</a>
+			</li>
+			<li class="linkedin">
+				<a href="http://www.linkedin.com/pub/jo%C3%A3o-codagnoni/4/48a/326" onClick="trackOutboundLink(this, 'Outbound Links', 'Linkedin'); return false;">
+					<img src="assets/images/in.png" alt="View my LinkedIn Profile"></img>
+				</a>
+			</li>
+			<li class="email">
+				<a href="mailto:joao@jcodagnoni.com" onClick="trackOutboundLink(this, 'Outbound Links', 'email'); return false;">
+					<img src="assets/images/mail.png" alt="Mail me"></img>
+				</a>
+			</li>
+			<li class="gplus">
+				<!-- Place this code where you want the badge to render. -->
+				<a href="//plus.google.com/116285802742079192801?prsrc=3" rel="publisher" target="_top" style="text-decoration:none" onClick="trackOutboundLink(this, 'Outbound Links', 'gplus'); return false;">
+					<img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:30px;height:30px;"/>
+				</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
