@@ -54,7 +54,7 @@ body {
 /* Basic */
 
 body, input, select, textarea {
-    color: rgba(169,169,169, 1);
+    color: rgba(255,255,255, 1);
     font-size: 15pt;	
     font-weight: 300 !important;
     letter-spacing: -0.025em;
@@ -605,7 +605,7 @@ a:hover {
     -ms-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     border-radius: 100%;
-    border: solid 1px rgba(169,169,169, 0.8);
+    border: solid 1px rgba(255,255,255, 0.8);
     display: block;
     font-size: 1.75em;
     height: 2.5em;
@@ -853,7 +853,6 @@ a:hover {
 
 
     #bg {
-        width: 100%;
     }
 
     /* Header */
