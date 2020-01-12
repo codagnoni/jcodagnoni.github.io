@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
 /*@import url("font-awesome.min.css");*/
 
 
@@ -479,11 +479,11 @@ a:hover {
 
 #header h1 {
     font-size: 4.35em;
-    font-weight: 900;
+    font-weight: 600;
     letter-spacing: -0.035em;
     line-height: 1em;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 4em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
@@ -491,9 +491,12 @@ a:hover {
 }
 
 #header p {
-    font-size: 1.55em;
+    font-size: 2.55em;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0.75em 0 0.25em 0;
     opacity: 1;
+    text-transform: lowercase;
 }
 
 #header nav {
@@ -514,12 +517,12 @@ a:hover {
     -ms-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
     display: inline-block;
-    height: 5.35em;
-    line-height: 5.885em;
+    height: 3.35em;
+    line-height: 3.35em;
     opacity: 0;
     position: relative;
     top: 0;
-    width: 5.35em;
+    width: 3.35em;
 }
 
 #header nav li:nth-child(1) {
@@ -607,7 +610,7 @@ a:hover {
     border-radius: 100%;
     border: solid 1px rgba(255,255,255, 0.8);
     display: block;
-    font-size: 1.75em;
+    font-size: 1em;
     height: 2.5em;
     line-height: 2.5em;
     position: relative;
